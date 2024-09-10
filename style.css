@@ -22,6 +22,11 @@ a {
     margin: 0 auto;
 }
 
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navigation Bar */
 header {
     background-color: #000;
@@ -76,15 +81,9 @@ nav {
     padding: 0 20px;
 }
 
-.hero-content h1 {
-    font-size: 48px;
+.aeroos-logo {
+    width: 300px;
     margin-bottom: 20px;
-    text-transform: uppercase;
-}
-
-.hero-content p {
-    font-size: 18px;
-    margin-bottom: 40px;
 }
 
 .btn-learn-more {
@@ -166,50 +165,6 @@ nav {
     margin: auto;
     font-size: 18px;
     line-height: 1.6;
-}
-
-/* Contact Section */
-#contact {
-    background-color: #00ff7f;
-    padding: 50px 0;
-    text-align: center;
-}
-
-#contact h2 {
-    font-size: 32px;
-    margin-bottom: 40px;
-    color: black;
-}
-
-form input, form textarea {
-    width: 80%;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    outline: none;
-}
-
-form textarea {
-    height: 150px;
-    resize: none;
-}
-
-button {
-    background-color: black;
-    color: white;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: white;
-    color: #00ff7f;
 }
 
 /* Footer */
